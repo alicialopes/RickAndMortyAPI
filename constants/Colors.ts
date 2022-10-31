@@ -1,5 +1,7 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+// universal declaration for dark mode and light mode colors
+
+const tintColorLight = '#85CB02';
+const tintColorDark = '#A4FA04';
 
 export default {
   light: {

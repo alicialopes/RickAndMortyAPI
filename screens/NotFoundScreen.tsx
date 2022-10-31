@@ -1,5 +1,5 @@
+// screen that warns the error that the screen does not exist
 import { StyleSheet, TouchableOpacity } from 'react-native';
-
 import { Text, View } from '../components/Themed';
 import { RootStackScreenProps } from '../types';
 
@@ -11,7 +11,7 @@ export default function NotFoundScreen({ navigation }: RootStackScreenProps<'Not
         <Text style={styles.linkText}>Go to home screen!</Text>
       </TouchableOpacity>
     </View>
-  );
+  ); 
 }
 
 const styles = StyleSheet.create({

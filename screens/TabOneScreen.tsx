@@ -1,32 +1,32 @@
+// screen one that has the characters API
 import { StyleSheet } from 'react-native';
-
-import EditScreenInfo from '../components/EditScreenInfo';
-import { Text, View } from '../components/Themed';
+import Search from '../components/Search';
+import { View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
+import { Image } from 'react-native';
+
+// logo image request
+const image = require('../assets/images/logo.png');
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
-  return (
+  return ( // content of screen one: character logo and api (search screen)
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="/screens/TabOneScreen.tsx" />
+      <Image source={image} style={styles.logo} />
+      <Search path="/screens/TabOneScreen.tsx" />
     </View>
   );
 }
 
+// style
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
+  logo: {
+    width:'90%',
+    height: '20%',
+    marginTop: 10,
   },
 });

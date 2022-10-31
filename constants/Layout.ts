@@ -1,3 +1,5 @@
+// declaration of window dimensions
+
 import { Dimensions } from 'react-native';
 
 const width = Dimensions.get('window').width;

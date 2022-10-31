@@ -6,6 +6,9 @@ import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation';
 
 export default function App() {
+  /*let [fontsLoaded] = useFonts({
+    Poppins_400Regular,
+  });*/
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
 
