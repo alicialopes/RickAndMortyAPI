@@ -33,25 +33,25 @@ Para usar esse aplicativo, é extremamente fácil.
 
 - A primeira tela mostra a API com todos os personagens selecionados, ao descer o scroll é possível vê-los.
 
-![](gif1.gif)
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif1.gif)
 
 - Ao apertar em cada personagem, irá abrir uma modal com informações mais específicas sobre ele.
 
-![](gif2.gif)
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif2.gif)
 
 - A segunda tela mostra informações sobre o primeiro episódio (ou episódio piloto).
 
-![](gif3.gif)
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif3.gif)
 
 - Ao clicar no ícone superior de informações, irá abrir outra modal com uma instrução de como utilizar a API, seguido de um link que leva o usuário para um site com informações mais específicas sobre a série Rick and Morty.
 
-![](gif4.gif)
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif4.gif)
 
 ### Layout
 
 Esse aplicativo com feito para as cores serem ajustadas de acordo com a preferência do usuário. Caso seu celular esteja no modo escuro, o aplicativo estará no tema dark; caso esteja no modo claro, o aplicativo estará no modo light.
 
-![](gif5.gif)
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif5.gif)
 
 ### Limitações
 
