@@ -49,7 +49,7 @@ Para usar esse aplicativo, é extremamente fácil.
 
 ### Layout
 
-Esse aplicativo com feito para as cores serem ajustadas de acordo com a preferência do usuário. Caso seu celular esteja no modo escuro, o aplicativo estará no tema dark; caso esteja no modo claro, o aplicativo estará no modo light.
+Esse aplicativo foi feito para as cores serem ajustadas de acordo com a preferência do usuário. Caso seu celular esteja no modo escuro, o aplicativo estará no tema dark; caso esteja no modo claro, o aplicativo estará no modo light.
 
 ![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif5.gif)
 
