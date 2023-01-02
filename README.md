@@ -1,4 +1,4 @@
-# React Native Developer 
+# React Native Developer - TypeScript 
 # Rick and Morty API
 
 ## English
