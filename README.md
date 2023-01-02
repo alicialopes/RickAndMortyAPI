@@ -1,28 +1,51 @@
 # React Native Developer 
 # Rick and Morty API
 
-//## Critérios mínimos:
+## English
 
-- Consumir dados de alguma [API](https://github.com/Ploomes/JrReactNativeSkillTest/blob/master/README.md#sugestões-de-apis);
-- Utilizar de ao menos um componente reutilizável(genérico);
-- [Clean Code](https://becode.com.br/clean-code/);
+My application aims to solve the question of people who are starting to watch Rick and Morty and don't know very well what the animated series is about, don't know who the characters are - if they are alive, what planet they are from, etc.
+As this is a complex design, involving many universes, many may not understand very well what is happening, so this API shows details of some characters, explains about the pilot of the series and sends the user to a website that has detailed information made by the fandom itself.
 
-## Diferenciais:
+### Execution Instructions
 
-- Utilizar [Redux](https://redux.js.org/basics/usage-with-react/) para gerenciamento de estado;
-- Possibilidade de utilização Online/Offline com algum tipo de persistência de dados Offline;
-- TypeScript;
-- Layout FODA!;
-- Comentários;
+To use this application, it is extremely easy.
 
-## Entrega
+- The first screen shows the API with all the characters selected, when you scroll down you can see them.
 
-Para a entrega, clonar esse repositório e indicar QUAL O PROBLEMA QUE A SUA APLICAÇÃO SE PROPÕE A RESOLVER;
-Incluir também instruções de execução, limitações, bugs conhecidos e quais seriam os próximos passos para a evolução do sistema.
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif1.gif)
 
-## Minha Entrega
+- When pressing on each character, a modal will open with more specific information about it.
 
-### Problema
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif2.gif)
+
+- The second screen shows information about the first episode (or pilot episode).
+
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif3.gif)
+
+- When clicking on the top information icon, another modal will open with instructions on how to use the API, followed by a link that takes the user to a site with more specific information about the Rick and Morty series.
+
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif4.gif)
+
+### Layout
+
+This application was made for the colors to be adjusted according to the user's preference. If your cell phone is in dark mode, the application will be in dark theme; if in light mode, the application will be in light mode.
+
+![](https://github.com/alicialopes/RickAndMortyAPI/blob/main/assets/gifs/gif5.gif)
+
+### Limitations
+
+I chose not to show all existing characters, since there are more than 400, so the limitation was having only placed some characters, not all.
+
+### Known bugs
+
+There is a bug in the declaration of the image's uri type in the character's specific modal screen, it's a bug that, even though it exists, still lets the image show normally.
+
+### Next steps
+
+- Include all characters;
+- Let the user choose which episode will be described on the second screen (instead of leaving the pilot episode fixed).
+
+## Português
 
 Minha aplicação se propõe a resolver o questionamento de pessoas que estão começando a assistir Rick and Morty e não sabem muito bem sobre o que a série animada é, não sabem quem são os personagens - se eles estão vivos, de que planeta são etc.
 Como esse é um desenho complexo, que envolve muitos universos, muitos podem não entender muito bem o que está acontecendo, por isso essa API mostra detalhes de alguns personagens, explica sobre o piloto da série e envia o usuário para um site que possui informações detalhadas feito pelo próprio fandom.
@@ -65,5 +88,4 @@ Existe um bug na declaração do tipo do uri da imagem na tela da modal específ
 
 - Incluir todos os personagens;
 - Deixar o usuário escolher qual episódio será descrito na segunda tela (ao invés de deixar fixo o episódio piloto).
-
 
