@@ -1,7 +1,7 @@
-# React Native Developer Test (Estágio)
+# React Native Developer 
 # Rick and Morty API
 
-## Critérios mínimos:
+//## Critérios mínimos:
 
 - Consumir dados de alguma [API](https://github.com/Ploomes/JrReactNativeSkillTest/blob/master/README.md#sugestões-de-apis);
 - Utilizar de ao menos um componente reutilizável(genérico);
